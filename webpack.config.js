@@ -5,6 +5,9 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 module.exports = {
     mode: 'development',
     entry: ['./src/react_1.jsx', './src/react_2.jsx'],
+    resolve: {
+      extensions: ['.jsx', '.js']
+    },
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'app.bundle.js'

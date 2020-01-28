@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Button from './components/button2/button.jsx';
+import Button from './components/button2/button';
 
 const React_2 = () => {
     return (
