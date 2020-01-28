@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Button from './components/button2/button';
 
-const React_2 = () => {
+interface Props {
+    first?: string
+    second?: number
+    third?: boolean
+}
+
+const React_2 = ({first, second, third}: Props) => {
     return (
         <div>
             Second react component
-            <Button>another button</Button>
+            <Button color="hotpink">children</Button>
         </div>
     )
 }
