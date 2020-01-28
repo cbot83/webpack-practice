@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Button from './components/button2/button.jsx';
 
 const React_2 = () => {
     return (
-        <div>Second react component</div>
+        <div>
+            Second react component
+            <Button>another button</Button>
+        </div>
     )
 }
 

@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Button from './components/button1/button.jsx';
 
 const React_1 = () => {
     return (
-        <div>First react component</div>
+        <div>
+            First react component
+            <Button>I'm a button</Button>
+        </div>
     )
 }
 
